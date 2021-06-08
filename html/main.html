@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="./../js/main.js" defer></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Carrot Game</title>
+</head>
+<body>
+  <section class="wrap">
+    <section class="gameWrap">
+      <header>
+        <!-- 플레이 버튼 -->
+        <button type="button" class="btn_play" id="playBtn">Go!</button>
+        <!-- 타이머-->
+        <div class="timer">
+          <span class="timerText">0:0</span>
+        </div>
+        <!-- 카운트-->
+        <div class="counter">0</div>
+      </header>
+      <!-- 벌레-->
+      <div class="gameZone" id="zone"></div>
+      <!-- 스타터-->
+      <div class="starter hide">
+        <div class="starterBox">
+          <button type="button" class="starterBtn">
+            다시
+          </button>
+          <span class="starterText"></span>
+        </div> 
+      </div>
+    </section>
+  </section>
+</body>
+</html>
